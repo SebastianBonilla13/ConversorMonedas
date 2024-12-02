@@ -1,14 +1,7 @@
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -60,11 +53,8 @@ public class Main {
                 System.out.println("Digite el número de la Divisa a Cambiar: ");
                 opc =  Integer.valueOf(input.nextLine());
 
-
                 String divisaActual = mapMonedas.get(opc);
                 System.out.println("Divisa Actual: "+divisaActual);
-
-
 
                 System.out.println("\nDigite el número de la Divisa a Cambiar: ");
                 //System.out.println(strMonedas);
@@ -110,12 +100,6 @@ public class Main {
             }
 
         }
-
-
-
-
-
-
-
+        
     }
 }
